@@ -21,6 +21,12 @@ const handlerUserInput = function(data) {
     connection.write("Move: right")
    } else if ( data === "a"){
     connection.write("Move: left")
+   } else if (data === "h"){
+    connection.write("Say: wasssuuuup")
+   } else if (data === "j"){
+    connection.write("Say: imma beat all of you")
+   } else if(data === "k"){
+    connection.write("Say: im just kidding");
    }
 }
 
